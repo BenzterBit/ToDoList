@@ -8,15 +8,16 @@ import Particles from 'react-particles-js';
 function App() {
 
   const particleStyle = {
-  particles: {
-                number:{
-                  value:30, 
-                  density:{
-                    enable:true,
-                    value_area:800
+  particles: 
+    {
+    number:{
+    value:30, 
+    density:{
+    enable:true,
+    value_area:800
 
-                  }
-                }   
+        }
+      }   
     }
   }
   
